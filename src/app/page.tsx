@@ -31,10 +31,10 @@ export default function HomePage() {
     setAddTodos(
       addTodos.map((todo) => 
       todo.id === id
-      ? {...todo, completed: !todo.completed}
+        ?   {...todo, completed: !todo.completed}
       : todo
       )
-    )
+        ) 
   }
 
   const handleDelete = (id: number) => {
