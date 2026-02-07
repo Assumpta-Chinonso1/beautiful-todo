@@ -29,7 +29,7 @@ export default function HomePage() {
 
   const handleToggle = (id: number) => {
     setAddTodos(
-      addTodos.map((todo) => 
+       addTodos.map((todo) => 
       todo.id === id
         ?   {...todo, completed: !todo.completed}
       : todo
