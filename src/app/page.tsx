@@ -56,7 +56,7 @@ export default function HomePage() {
           className="flex-1 px-4 pt-2 border border-gray-500 rounded-lg text-gray-500" />
 
           <button
-          onClick={handleTodos}
+            onClick={handleTodos}
            className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-500">Add</button>
         </div>
 
